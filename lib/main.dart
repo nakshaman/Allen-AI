@@ -1,0 +1,6 @@
+import 'package:allen/my_app.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: MyApp()));
+}
