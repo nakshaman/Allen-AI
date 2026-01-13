@@ -1,6 +1,11 @@
-import 'package:allen/my_app.dart';
+import 'package:allen/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home: MyApp()));
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    ),
+  );
 }
